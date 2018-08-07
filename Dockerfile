@@ -5,8 +5,6 @@ LABEL maintainer="Ronald Robinson <ronald@fastmail.com>"
 
 VOLUME ["/etc/openvpn"]
 
-# 'docker run -p 443:7900/tcp'
-EXPOSE 7900/udp
 
 CMD [ "ovpn_run" ]
 
