@@ -6,7 +6,8 @@ LABEL maintainer="Ronald Robinson <ronald@fastmail.com>"
 VOLUME ["/etc/openvpn"]
 
 
-CMD [ "ovpn_run" ]
+
+CMD [ "run" ]
 
 ADD ./bin /usr/local/bin
 RUN chmod a+x /usr/local/bin/*
